@@ -32,7 +32,7 @@ const addTask = (e) => {
     name: taskName,
   };
 
-  tasks = [...tasks, newTask]; // copio el array usando el spray operator , para guardar nuevos elementos dentro del mismo y sumarle la newTask (el objeto)
+  tasks = [...tasks, newTask]; // copio el array usando el spread  operator , para guardar nuevos elementos dentro del mismo y sumarle la newTask (el objeto)
   ID++;
   input.value = "";
   console.log(tasks, newTask);
